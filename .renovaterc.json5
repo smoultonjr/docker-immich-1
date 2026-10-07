@@ -20,8 +20,8 @@
       commitMessageTopic: "{{depName}}",
       matchFileNames: ["docker-bake.hcl"],
       semanticCommitType: "release",
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
+      matchUpdateTypes: ["minor", "patch"],
+      automerge: true
     },
     {
       description: ["Auto-merge Bake Updates"],
