@@ -25,7 +25,7 @@ jobs:
           client-id: ${{ secrets.BOT_CLIENT_ID }}
           private-key: ${{ secrets.BOT_APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
-          repositories: "docker-immich/.github"
+          repositories: "docker-immich-1/.github"
           permission-actions: write
 
       - name: Run Renovate
