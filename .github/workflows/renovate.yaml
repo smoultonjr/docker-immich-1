@@ -42,7 +42,7 @@ jobs:
           token: ${{ steps.app-token.outputs.token }}
 
       - name: Run Renovate
-        uses: renovatebot/github-action
+        uses: renovatebot/github-action@v41
         with:
           token: ${{ steps.app-token.outputs.token }}
           configurationFile: .github/renovate.json5
